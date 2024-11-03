@@ -64,6 +64,7 @@ export const Mousedown = () => {
      </div>
       </>
      }>
+     <>
      <p className="overflow-y-auto h-[100px] mb-3">El <strong>MouseDown</strong> se activa al presionar un botón del ratón. Usualmente inicia una acción, como el comienzo de un arrastre. 
       <strong>MouseMove</strong> se activa al mover el ratón sobre un elemento. Es útil para rastrear la posición del ratón en tiempo real. 
       <strong>MouseUp</strong> se activa al soltar un botón del ratón después de presionarlo. Marca el final de una acción de arrastre o dibujo.
@@ -71,7 +72,7 @@ export const Mousedown = () => {
       </p>
       <p className="overflow-y-auto h-[100px] text-gray-700">En este ejemplo utilizaremos un canva, cuando se presione el botón 
         del mouse se iniciara el pincel, cuando se mueva el mouse se dibujara con el pincel y cuando 
-        el botón del mouse ya no se presione se detendrá el trazo, cuando el puntero salga del canva se detendrá el trazo.  </p>
+        el botón del mouse ya no se presione se detendrá el trazo, cuando el puntero salga del canva se detendrá el trazo.  </p></>
      </Eventogenerico>
   );
 };

@@ -12,8 +12,11 @@ export default function EventoClick() {
         </button>
         </>  
         }>
-        <p> El evento click se ejecuta cuando se presiona el botón. </p>
-        <p className='text-gray-700'>En este ejemplo hicimos un contador que incrementa al presionar el botón.</p>
+          <>
+          <p> El evento click se ejecuta cuando se presiona el botón. </p>
+          <p className='text-gray-700'>En este ejemplo hicimos un contador que incrementa al presionar el botón.</p>
+          </>
+        
         </Eventogenerico>
   )
 }

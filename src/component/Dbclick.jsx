@@ -12,8 +12,11 @@ export default function Dbclick() {
         </button>
         </>
       }>
-      <p> El evento dbclick se ejecuta cuando se presiona dos veces el botón. </p>
-      <p className="text-gray-700">En este ejemplo hicimos un contador que incrementa al presionar dos veces el botón.</p>
+        <>
+        <p> El evento dbclick se ejecuta cuando se presiona dos veces el botón. </p>
+        <p className="text-gray-700">En este ejemplo hicimos un contador que incrementa al presionar dos veces el botón.</p>
+        </>
+     
       </Eventogenerico>
        
   )

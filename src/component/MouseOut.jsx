@@ -20,9 +20,10 @@ export default function MouseOut() {
         </div>
         </>
       }>
-         <p className='overflow-y-auto h-[100px] mb-3'> El evento MouseOver ocurre cuando el puntero de ratón pasa sobre un elemento, el evento MouseOut 
+        <>
+        <p className='overflow-y-auto h-[100px] mb-3'> El evento MouseOver ocurre cuando el puntero de ratón pasa sobre un elemento, el evento MouseOut 
           ocurre cuando el puntero del ratón sale del elemento.</p>
-        <p className='text-gray-700'>En este ejemplo hicimos un párrafo que cambiara cuando el puntero entre o salga del párrafo.</p>
+        <p className='text-gray-700'>En este ejemplo hicimos un párrafo que cambiara cuando el puntero entre o salga del párrafo.</p></>
       </Eventogenerico>
   )
 }
